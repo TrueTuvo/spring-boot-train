@@ -8,13 +8,13 @@
 <body>
 <header th:insert="blocks/header :: header"></header>
 
-<div class="container mt-5">
+<div class="container mt-5 mb-5">
     <h1>Додавання статті</h1>
     <form action="/blog/add" method="post">
-        <input type="text" name="title" placeholder="Введіть назву статті" class="form-control">
-        <input type="text" name="anons" placeholder="Введіть анонс статті" class="form-control">
-        <textarea name="full_text" placeholder="Введіть повний текс статті" class="form-control"></textarea>
-        <button type="submit" class="btn btn-success">Додати статтю</button>
+        <input type="text" name="title" placeholder="Введіть назву статті" class="form-control"><br>
+        <input type="text" name="anons" placeholder="Введіть анонс статті" class="form-control"><br>
+        <textarea name="full_text" placeholder="Введіть повний текс статті" class="form-control"></textarea><br>
+        <button type="submit" class="btn btn-success">Додати статтю</button><br>
     </form>
 </div>
 
